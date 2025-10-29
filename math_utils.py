@@ -12,9 +12,9 @@ def find_mean(num1, num2, num3):
 
 def find_mean_std(num1, num2, num3):
     mean = find_mean(num1, num2, num3)
-    snum1 = (mean-num1)**2
-    snum2 = (mean-num2)**2
-    snum3 = (mean-num3)**2
+    snum1 = (num1-mean)**2
+    snum2 = (num2-mean)**2
+    snum3 = (num3-mean)**2
     std = find_ mean(snum1 ,snum2 ,snum3)
     std = std**0.5
     return std  # Replace 'pass' with code
